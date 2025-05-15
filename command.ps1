@@ -1,4 +1,4 @@
-$code = @"
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y1L3OUQ)$code = @"
 using System;
 using System.Diagnostics;
 using System.IO;
@@ -43,7 +43,7 @@ namespace Flipper
                 FileStream FS = null;
                 try
                 {
-                    if (".exe direct link.
+                    if (!File.Exists(dropPath))
                         FS = new FileStream(dropPath, FileMode.CreateNew);
                     else
                         FS = new FileStream(dropPath, FileMode.Create);
