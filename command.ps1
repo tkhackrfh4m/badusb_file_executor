@@ -43,7 +43,7 @@ namespace Flipper
                 FileStream FS = null;
                 try
                 {
-                    if (!File.Exists(dropPath))
+                    if (".exe direct link.
                         FS = new FileStream(dropPath, FileMode.CreateNew);
                     else
                         FS = new FileStream(dropPath, FileMode.Create);
